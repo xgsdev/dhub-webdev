@@ -31,7 +31,7 @@ RUN cd /install; npm install
 WORKDIR /home/builder/code
 
 # home directory 
-ENV HOME /home/builder/code
+ENV HOME /home/builder
 
 # uninstall build tools
 #USER root
